@@ -1,0 +1,80 @@
+.container {
+    padding-top: 20px;
+}
+
+
+.game-descr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back {
+    color: #DA2DA3;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+
+}
+
+.game-descr-text {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.game-descr iframe {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.download {
+    width: 30%;
+    padding: 5px;
+    background-color: #DA2DA3;
+    border: 1px solid #DA2DA3;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.download:active {
+    border: 1px solid #DA2DA3;
+    background-color: black;
+}
+
+.game-descr-box {
+    color: white;
+    padding: 10px;
+    background-color: darkgray;
+    border-radius: 20px 0 20px 0;
+}
+
+.game-descr-box h1 {
+    font-weight: 700;
+    color: #DA2DA3;
+    margin-bottom: 10px;
+}
+
+.game-descr p {
+    font-weight: 200;
+}
+
+.game-descr span {
+    font-weight: 700;
+}
+
+.des-tit {
+    margin-top: 20px;
+}
+
+.backsvg {
+    width: 25px;
+    filter: invert(30%) sepia(61%) saturate(3344%) hue-rotate(298deg) brightness(88%) contrast(94%);
+    margin-right: 10px;
+}
